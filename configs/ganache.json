@@ -1,7 +1,9 @@
 {
     "network": "ganache",
-    "contract_address": "0x1c8E7061c0606f72d82FE7BC1256647Eca8E86B2",
-    "owner_mnemonic": "level venue crew odor attack uncover flush steak club lumber pupil nerve",
-    "owner_address": "0x692b340915Eb661CB3AD878Db4ca44B57Ea8Dc2a",
+    "contract_address": "",
+    "contract_name": "Contract",
+    "polygonscan_key": "YOUR_SCAN_KEY",
+    "owner_mnemonic": "GANACHE_MNEMONIC",
+    "owner_address": "OWNER_ADDRESS",
     "provider": "http://localhost:7545"
 }
