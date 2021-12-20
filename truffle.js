@@ -34,7 +34,7 @@ module.exports = {
             gasPrice: "100000000000",
             skipDryRun: true
         },
-        rinkleby: {
+        rinkeby: {
             provider: () => new HDWalletProvider(process.env.MNEMONIC, process.env.PROVIDER),
             network_id: 4,
             confirmations: 2,
