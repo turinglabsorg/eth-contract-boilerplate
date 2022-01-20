@@ -1,14 +1,14 @@
 {
-    "name": "carato-erc1155",
+    "name": "eth-boilerplate",
     "version": "1.0.5",
-    "description": "Carato ERC-1155",
+    "description": "Ethereum Solidity Boilerplate",
     "main": "index.js",
     "scripts": {
         "extract-abi": "truffle-export-abi -d ./build/contracts/ -o ./abi.json -v",
         "test": "truffle test",
         "test:hello": "node tests/hello.js",
         "deploy": "node deploy.js",
-        "verify:mumbai": "node verify.js"
+        "verify": "node verify.js"
     },
     "author": "turinglabsorg",
     "license": "MIT",
